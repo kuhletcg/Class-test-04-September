@@ -1,26 +1,21 @@
 function checkPrice() {
     document = document.getElementById("Price")
 if (validate == true) {
-         validate = true;
-    checkAvailability = ("price")
+  return false
     }
 else{  document.getElementById('Cash')
 }
     function checkCash() {
     document = document.getElementById("Cash")
 if (validate == true) {
-         validate = true;
-    checkAvailability = (cash)
-    return false
+     return false
 } else {
     document.getElementById('Cash')
 }
 function checkCid() {
     document = document.getElementById("Cid")
 if (validate == true) {
-         validate = true;
-    checkAvailability =(cid)
-    return false
+ return false
 }else {
  document.getElementById('Cid')
 }

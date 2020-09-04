@@ -1,3 +1,9 @@
+
+function cellphoneCheck(string) {
+    var number = new number(/\d/g).length === 10;
+    return part.test(str);
+}
+cellphoneCheck("(011) 282-1111");
 let add = function(){
     if (n<=o11) {
         return true;
@@ -8,3 +14,4 @@ let add = function(){
 console.log(add(number));
 add (3) => 3 + add(2);
 3+2+ add(1);
+
