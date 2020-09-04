@@ -2,20 +2,31 @@ function checkPrice() {
     document = document.getElementById("Price")
 if (validate == true) {
          validate = true;
-    checkAvailability = false
+    checkAvailability = ("price")
     }
-else checkPrice = checkPrice
-
+else{  document.getElementById('Cash')
+}
     function checkCash() {
     document = document.getElementById("Cash")
 if (validate == true) {
          validate = true;
-    checkAvailability = false
+    checkAvailability = (cash)
+    return false
+} else {
+    document.getElementById('Cash')
 }
-
 function checkCid() {
     document = document.getElementById("Cid")
 if (validate == true) {
          validate = true;
-    checkAvailability = false
+    checkAvailability =(cid)
+    return false
+}else {
+ document.getElementById('Cid')
+}
+let total = 0;
+for (let i=i; i<=n;
+    i++) {
+        total +=i;
     }
+    console.log(total)
